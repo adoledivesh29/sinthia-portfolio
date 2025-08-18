@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'General Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+#nav {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+#heading {
+    margin-top: 90px;
+}
+
+#heading h1 {
+    margin-left: 30px;
+    opacity: 0.6;
+    line-height: 0.9;
+    font-size: 10vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#heading #second-heading {
+    margin-left: 230px;
+}
+
+.text-block {
+    width: fit-content;
+}
+
+.text-block h5 {
+    font-size: 1vw;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#sub-headings {
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#sub-headings h5 {
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#hero-footer {
+    position: absolute;
+    padding: 0 2vw;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-footer a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#hero-footer #icons-set {
+    display: flex;
+    gap: 5px;
+}
+
+#hero-footer .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+#second {
+    padding-top: 200px;
+    padding-right: 10vw;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    font-size: 7.6vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.elem-last {
+    border-bottom: 1px solid #888;
+}
